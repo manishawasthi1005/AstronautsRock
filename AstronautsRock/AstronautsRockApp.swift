@@ -10,8 +10,8 @@ import SwiftUI
 @main
 struct AstronautsRockApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+            WindowGroup {
+                AstronautHomeView().environmentObject(AstronautsRestData())
+            }
         }
-    }
 }
