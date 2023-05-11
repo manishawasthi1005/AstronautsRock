@@ -8,7 +8,6 @@ import SwiftUI
 
 struct AstronautDetailView: View {
     @EnvironmentObject var astronautRestData: AstronautsRestData
-
     let astronaut : Astronaut
     
     var body: some View {
