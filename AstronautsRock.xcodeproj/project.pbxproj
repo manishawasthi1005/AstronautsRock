@@ -15,6 +15,7 @@
 		0FDC45092A065E6200C70476 /* AstronautHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDC45082A065E6200C70476 /* AstronautHomeView.swift */; };
 		0FDC450B2A065E8000C70476 /* AstronautRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDC450A2A065E8000C70476 /* AstronautRowView.swift */; };
 		0FDC450D2A065EC100C70476 /* AstronautsRawData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDC450C2A065EC100C70476 /* AstronautsRawData.swift */; };
+		757996E22A0D69FC00517084 /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757996E12A0D69FC00517084 /* LockView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		0FDC45082A065E6200C70476 /* AstronautHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautHomeView.swift; sourceTree = "<group>"; };
 		0FDC450A2A065E8000C70476 /* AstronautRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautRowView.swift; sourceTree = "<group>"; };
 		0FDC450C2A065EC100C70476 /* AstronautsRawData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautsRawData.swift; sourceTree = "<group>"; };
+		757996E12A0D69FC00517084 /* LockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				0FDC45042A065E1F00C70476 /* AstronautDetailView.swift */,
 				0FDC45082A065E6200C70476 /* AstronautHomeView.swift */,
 				0FDC450A2A065E8000C70476 /* AstronautRowView.swift */,
+				757996E12A0D69FC00517084 /* LockView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			files = (
 				0FDC45092A065E6200C70476 /* AstronautHomeView.swift in Sources */,
 				0FDC45052A065E1F00C70476 /* AstronautDetailView.swift in Sources */,
+				757996E22A0D69FC00517084 /* LockView.swift in Sources */,
 				0FDC44F42A065D9400C70476 /* AstronautsRockApp.swift in Sources */,
 				0FDC45072A065E4500C70476 /* Astronaut.swift in Sources */,
 				0FDC450B2A065E8000C70476 /* AstronautRowView.swift in Sources */,

@@ -11,7 +11,7 @@ import SwiftUI
 struct AstronautsRockApp: App {
     var body: some Scene {
             WindowGroup {
-                AstronautHomeView().environmentObject(AstronautsRestData())
+                LockView().environmentObject(AstronautsRestData())
             }
         }
 }
