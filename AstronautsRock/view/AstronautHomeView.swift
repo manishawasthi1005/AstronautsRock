@@ -8,6 +8,10 @@ import SwiftUI
 import LocalAuthentication
 
 struct AstronautHomeView: View {
+    
+    @Environment(\.managedObjectContext) var moc
+    //@FetchRequest (sortDescriptors: []) var astronauts: AstronautsRestData
+    
     @EnvironmentObject var astronautRestData: AstronautsRestData
     @State private var unlocked = false
 
@@ -47,6 +51,15 @@ struct AstronautHomeView: View {
             //Phone does not have Biometrics
         }
     }
+    /*func saveToCoreData(){
+        List(astronautRestData.astronauts) { astronaut in
+            let astronaut = AstronautModel(context: moc)
+            astronaut = UUID()
+            student.name = "\(chosenFirstName) \(chosenLastName)"
+            
+            try? moc.save()
+        }
+    }*/
 }
 
 struct AstronautHomeView_Previews: PreviewProvider {

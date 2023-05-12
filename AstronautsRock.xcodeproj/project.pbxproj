@@ -16,6 +16,10 @@
 		0FDC450B2A065E8000C70476 /* AstronautRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDC450A2A065E8000C70476 /* AstronautRowView.swift */; };
 		0FDC450D2A065EC100C70476 /* AstronautsRawData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDC450C2A065EC100C70476 /* AstronautsRawData.swift */; };
 		757996E22A0D69FC00517084 /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757996E12A0D69FC00517084 /* LockView.swift */; };
+		757997302A0E152800517084 /* AstronautDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7579972E2A0E152800517084 /* AstronautDataModel.xcdatamodeld */; };
+		757997322A0E15CA00517084 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757997312A0E15CA00517084 /* DataController.swift */; };
+		757997342A0E184300517084 /* AstronautsApiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757997332A0E184300517084 /* AstronautsApiData.swift */; };
+		757997362A0E191300517084 /* RestApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757997352A0E191300517084 /* RestApiResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		0FDC450A2A065E8000C70476 /* AstronautRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautRowView.swift; sourceTree = "<group>"; };
 		0FDC450C2A065EC100C70476 /* AstronautsRawData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautsRawData.swift; sourceTree = "<group>"; };
 		757996E12A0D69FC00517084 /* LockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
+		7579972F2A0E152800517084 /* AstronautDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AstronautDataModel.xcdatamodel; sourceTree = "<group>"; };
+		757997312A0E15CA00517084 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		757997332A0E184300517084 /* AstronautsApiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautsApiData.swift; sourceTree = "<group>"; };
+		757997352A0E191300517084 /* RestApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApiResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,7 @@
 		0FDC44F22A065D9400C70476 /* AstronautsRock */ = {
 			isa = PBXGroup;
 			children = (
+				7579972E2A0E152800517084 /* AstronautDataModel.xcdatamodeld */,
 				0F9ECB242A08475D00DB99A2 /* Info.plist */,
 				0FDC45032A065DD000C70476 /* viewmodel */,
 				0FDC45022A065DC600C70476 /* view */,
@@ -85,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				0FDC45062A065E4500C70476 /* Astronaut.swift */,
+				757997352A0E191300517084 /* RestApiResponse.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -104,6 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				0FDC450C2A065EC100C70476 /* AstronautsRawData.swift */,
+				757997312A0E15CA00517084 /* DataController.swift */,
+				757997332A0E184300517084 /* AstronautsApiData.swift */,
 			);
 			path = viewmodel;
 			sourceTree = "<group>";
@@ -181,9 +193,13 @@
 				0FDC45092A065E6200C70476 /* AstronautHomeView.swift in Sources */,
 				0FDC45052A065E1F00C70476 /* AstronautDetailView.swift in Sources */,
 				757996E22A0D69FC00517084 /* LockView.swift in Sources */,
+				757997302A0E152800517084 /* AstronautDataModel.xcdatamodeld in Sources */,
+				757997362A0E191300517084 /* RestApiResponse.swift in Sources */,
+				757997322A0E15CA00517084 /* DataController.swift in Sources */,
 				0FDC44F42A065D9400C70476 /* AstronautsRockApp.swift in Sources */,
 				0FDC45072A065E4500C70476 /* Astronaut.swift in Sources */,
 				0FDC450B2A065E8000C70476 /* AstronautRowView.swift in Sources */,
+				757997342A0E184300517084 /* AstronautsApiData.swift in Sources */,
 				0FDC450D2A065EC100C70476 /* AstronautsRawData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,6 +403,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7579972E2A0E152800517084 /* AstronautDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7579972F2A0E152800517084 /* AstronautDataModel.xcdatamodel */,
+			);
+			currentVersion = 7579972F2A0E152800517084 /* AstronautDataModel.xcdatamodel */;
+			path = AstronautDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0FDC44E82A065D9400C70476 /* Project object */;
 }
